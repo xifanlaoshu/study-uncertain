@@ -97,7 +97,7 @@ public class UncertainEngine implements IContainer, IMBeanNameProvider {
     boolean mIsRunning = true;
     Set<String> mLoadedFiles = new HashSet<String>();
     List<ILifeCycle>    mLoadedLifeCycleList = new LinkedList<ILifeCycle>();
-    
+     
     /* =========== logging related members =================== */
     // String mLogPath;
     String mDefaultLogLevel = "WARNING";
